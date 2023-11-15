@@ -3,37 +3,27 @@
     height: 90.5vh;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    border: 1px solid #212121;
+    padding-top: 10px;
+}
+
+
+
+.NewsListMega{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    width: 800px;
+    border: 1px solid #212121;
+}
+
+
+.NewsList{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 900px;
     justify-content: space-between;
-    border: 1px solid #212121;
-}
-
-.NewsList1{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 100%;
-    width: 25%;
-    border: 1px solid #212121;
-}
-.NewsList2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 100%;
-    width: 35%;
-    border: 1px solid #212121;
-}
-.NewsList3{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 100%;
-    width: 40%;
-    border: 1px solid #212121;
-}
-
-.NewsList1Box{
-    width: 100%;
-    height: 33%;
-    border: 1px solid #212121;
 }

@@ -1,0 +1,30 @@
+.NewsListBox{
+    width: 400px;
+    height: 250px;
+    border: 1px solid #212121;
+    display: flex;
+    align-items: flex-end;
+    margin:10px;
+}
+
+
+.NewsListBox img{
+    width: 400px;
+    height: 250px;
+    position: sticky;
+    z-index: 1;
+    filter: brightness(60%);
+}
+
+.NewsListContent{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    height: 100px;
+    width: 400px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.NewsListContent p {
+    margin-top: 10px;
+}
