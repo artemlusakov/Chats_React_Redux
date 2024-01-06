@@ -1,0 +1,24 @@
+.SidebarDialogsChats{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+    border-radius: 5px;
+    border: #212121 1px solid;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.SidebarDialogsChats img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+.SidebarDialogsChatsContent{
+    margin-left: 10px;
+}
+
+.SidebarDialogsChatsContent h1{
+    font-size: 25px;
+}

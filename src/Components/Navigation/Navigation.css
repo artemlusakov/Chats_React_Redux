@@ -19,11 +19,12 @@ nav img{
 
 .NavigationNavLinks {
     display: flex;
+    align-items: center;
     min-width: 300px;
     justify-content: space-between;
 }
 
-.NavigationNavLinks a {
+.NavigationNavLinks ul a {
     margin-left: 10px;
     color: #212121;
     text-decoration: none;
@@ -32,9 +33,19 @@ nav img{
     border-radius: 5px;
 }
 
-.NavigationNavLinks a:hover{
+.NavigationNavLinks ul a:hover{
     transition: 0.9s;
     background: #212121;
     color: white;
 }
+
+.ProfileImg img{
+    padding: 0;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+
+
+
 

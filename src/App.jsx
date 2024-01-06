@@ -1,17 +1,16 @@
 import './App.css'
 import Navigation from "./Components/Navigation/Navigation.jsx";
-import News from "./Page/News/News.jsx";
+
 import Routing from "./Routings/Routing.jsx";
 
 function App() {
 
-  return (
-    <>
-      <Navigation/>
-        <Routing/>
-
-    </>
-  )
+    return (
+        <>
+            <Navigation Ava={'https://gameguru.ru/media/games/patch_10_25_banner.jpg'}/>
+            <Routing/>
+        </>
+    )
 }
 
 export default App
